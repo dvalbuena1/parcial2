@@ -1,4 +1,42 @@
-{"_id":{"$oid":"60a95d30080331440d93dc3c"},"name":"Casa Suba","owner":{"username":"jj.alarcon10","name":"Jhonatan A"},"address":"Calle falsa 123","phone":"3112000000","type":"house","isActive":true,"id":"H001"}
-{"_id":{"$oid":"60aadec29ddc92ece8a8a027"},"name":"Casa Zipaquirá","owner":{"username":"jj.alarcon10","name":"Jhonatan A"},"address":"Calle falsa 321","phone":"3112000000","type":"house","isActive":true,"id":"H002"}
-{"_id":{"$oid":"60ab06979ddc92ece8a8a028"},"name":"Apto Cartagena","owner":{"username":"jj.alarcon10","name":"Jhonatan A"},"address":"Calle falsa 456","phone":"3112000000","type":"loft","isActive":true,"id":"L001"}
-{"_id":{"$oid":"60ad13f48b79a7d99fc425fc"},"name":"Apto Cali","owner":{"username":"jj.alarcon10","name":"Jhonatan A"},"address":"Calle falsa 567","phone":"3112000000","type":"loft","isActive":false,"id":"L002"}
+[
+  {
+    "_id": { "$oid": "60a95d30080331440d93dc3c" },
+    "name": "Casa Suba",
+    "owner": { "username": "jj.alarcon10", "name": "Jhonatan A" },
+    "address": "Calle falsa 123",
+    "phone": "3112000000",
+    "type": "house",
+    "isActive": true,
+    "id": "H001"
+  },
+  {
+    "_id": { "$oid": "60aadec29ddc92ece8a8a027" },
+    "name": "Casa Zipaquirá",
+    "owner": { "username": "jj.alarcon10", "name": "Jhonatan A" },
+    "address": "Calle falsa 321",
+    "phone": "3112000000",
+    "type": "house",
+    "isActive": true,
+    "id": "H002"
+  },
+  {
+    "_id": { "$oid": "60ab06979ddc92ece8a8a028" },
+    "name": "Apto Cartagena",
+    "owner": { "username": "jj.alarcon10", "name": "Jhonatan A" },
+    "address": "Calle falsa 456",
+    "phone": "3112000000",
+    "type": "loft",
+    "isActive": true,
+    "id": "L001"
+  },
+  {
+    "_id": { "$oid": "60ad13f48b79a7d99fc425fc" },
+    "name": "Apto Cali",
+    "owner": { "username": "jj.alarcon10", "name": "Jhonatan A" },
+    "address": "Calle falsa 567",
+    "phone": "3112000000",
+    "type": "loft",
+    "isActive": false,
+    "id": "L002"
+  }
+]

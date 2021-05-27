@@ -1,9 +1,194 @@
-{"_id":{"$oid":"60a9810138fdb165d4f1ce09"},"name":"Living room","homeId":"H001","devices":[{"name":"temperature","desired":{"value":"26","unit":"C"},"id":"T01"},{"name":"light01","id":"L01","desired":{"value":"off","unit":"boolean"}}],"type":"room","powerUsage":{"unit":"KwH","value":0.2}}
-{"_id":{"$oid":"60ac5dc59212f50d95f247b3"},"name":"Kitchen","homeId":"H001","devices":[{"name":"temperature","desired":{"value":"20","unit":"C"},"id":"T01"},{"name":"light1","id":"L01","desired":{"value":"on","unit":"boolean"}}],"type":"kitcken","powerUsage":{"unit":"KwH","value":0.4}}
-{"_id":{"$oid":"60ac5e259212f50d95f247b4"},"name":"Dinner room","homeId":"H001","devices":[{"name":"temperature","desired":{"value":"19","unit":"C"},"id":"T01"},{"name":"light1","id":"L01","desired":{"value":"on","unit":"boolean"}}],"type":"room","powerUsage":{"unit":"KwH","value":0.1}}
-{"_id":{"$oid":"60ad14308b79a7d99fc425fd"},"name":"Living room","homeId":"H002","devices":[{"name":"temperature","desired":{"value":"22","unit":"C"},"id":"T01"},{"name":"light01","id":"L01","desired":{"value":"on","unit":"boolean"}}],"type":"room","powerUsage":{"unit":"KwH","value":0.5}}
-{"_id":{"$oid":"60ad148e8b79a7d99fc425fe"},"name":"Kitchen","homeId":"H002","devices":[{"name":"temperature","desired":{"value":"15","unit":"C"},"id":"T04"},{"name":"light1","id":"L05","desired":{"value":"off","unit":"boolean"}},{"name":"door","desired":{"value":"open","unit":"boolean"}}],"type":"kitcken","powerUsage":{"unit":"KwH","value":0.6}}
-{"_id":{"$oid":"60ad15318b79a7d99fc425ff"},"name":"Living room","homeId":"L001","devices":[{"name":"temperature","desired":{"value":"24","unit":"C"},"id":"T01"},{"name":"light01","id":"L01","desired":{"value":"on","unit":"boolean"}},{"name":"humidity","id":"HU01","desired":{"value":"70","unit":"g/m3"}}],"type":"room","powerUsage":{"unit":"KwH","value":1.2}}
-{"_id":{"$oid":"60ad16338b79a7d99fc42600"},"name":"Kitchen","homeId":"L001","devices":[{"name":"temperature","desired":{"value":"20","unit":"C"},"id":"T06"},{"name":"light1","id":"L05","desired":{"value":"off","unit":"boolean"}},{"name":"door","desired":{"value":"open","unit":"boolean"},"id":"D01"},{"name":"Gas","desired":{"value":false,"unit":"boolean"},"id":"G02"}],"type":"kitcken","powerUsage":{"unit":"KwH","value":0.5}}
-{"_id":{"$oid":"60ad17288b79a7d99fc42601"},"name":"Kitchen","homeId":"L002","devices":[{"name":"temperature","desired":{"value":"18","unit":"C"},"id":"T09"},{"name":"light1","id":"L05","desired":{"value":"on","unit":"boolean"}},{"name":"Gas","desired":{"value":false,"unit":"boolean"},"id":"G01"}],"type":"kitcken","powerUsage":{"unit":"KwH","value":0.8}}
-{"_id":{"$oid":"60ad177b8b79a7d99fc42602"},"name":"Dinner room","homeId":"L002","devices":[{"name":"temperature","desired":{"value":"21","unit":"C"},"id":"T01"},{"name":"light1","id":"L07","desired":{"value":"on","unit":"boolean"}}],"type":"room","powerUsage":{"unit":"KwH","value":0.5}}
+[
+  {
+    "_id": { "$oid": "60a9810138fdb165d4f1ce09" },
+    "name": "Living room",
+    "homeId": "H001",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "26", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light01",
+        "id": "L01",
+        "desired": { "value": "off", "unit": "boolean" }
+      }
+    ],
+    "type": "room",
+    "powerUsage": { "unit": "KwH", "value": 0.2 }
+  },
+  {
+    "_id": { "$oid": "60ac5dc59212f50d95f247b3" },
+    "name": "Kitchen",
+    "homeId": "H001",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "20", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light1",
+        "id": "L01",
+        "desired": { "value": "on", "unit": "boolean" }
+      }
+    ],
+    "type": "kitcken",
+    "powerUsage": { "unit": "KwH", "value": 0.4 }
+  },
+  {
+    "_id": { "$oid": "60ac5e259212f50d95f247b4" },
+    "name": "Dinner room",
+    "homeId": "H001",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "19", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light1",
+        "id": "L01",
+        "desired": { "value": "on", "unit": "boolean" }
+      }
+    ],
+    "type": "room",
+    "powerUsage": { "unit": "KwH", "value": 0.1 }
+  },
+  {
+    "_id": { "$oid": "60ad14308b79a7d99fc425fd" },
+    "name": "Living room",
+    "homeId": "H002",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "22", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light01",
+        "id": "L01",
+        "desired": { "value": "on", "unit": "boolean" }
+      }
+    ],
+    "type": "room",
+    "powerUsage": { "unit": "KwH", "value": 0.5 }
+  },
+  {
+    "_id": { "$oid": "60ad148e8b79a7d99fc425fe" },
+    "name": "Kitchen",
+    "homeId": "H002",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "15", "unit": "C" },
+        "id": "T04"
+      },
+      {
+        "name": "light1",
+        "id": "L05",
+        "desired": { "value": "off", "unit": "boolean" }
+      },
+      { "name": "door", "desired": { "value": "open", "unit": "boolean" } }
+    ],
+    "type": "kitcken",
+    "powerUsage": { "unit": "KwH", "value": 0.6 }
+  },
+  {
+    "_id": { "$oid": "60ad15318b79a7d99fc425ff" },
+    "name": "Living room",
+    "homeId": "L001",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "24", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light01",
+        "id": "L01",
+        "desired": { "value": "on", "unit": "boolean" }
+      },
+      {
+        "name": "humidity",
+        "id": "HU01",
+        "desired": { "value": "70", "unit": "g/m3" }
+      }
+    ],
+    "type": "room",
+    "powerUsage": { "unit": "KwH", "value": 1.2 }
+  },
+  {
+    "_id": { "$oid": "60ad16338b79a7d99fc42600" },
+    "name": "Kitchen",
+    "homeId": "L001",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "20", "unit": "C" },
+        "id": "T06"
+      },
+      {
+        "name": "light1",
+        "id": "L05",
+        "desired": { "value": "off", "unit": "boolean" }
+      },
+      {
+        "name": "door",
+        "desired": { "value": "open", "unit": "boolean" },
+        "id": "D01"
+      },
+      {
+        "name": "Gas",
+        "desired": { "value": false, "unit": "boolean" },
+        "id": "G02"
+      }
+    ],
+    "type": "kitcken",
+    "powerUsage": { "unit": "KwH", "value": 0.5 }
+  },
+  {
+    "_id": { "$oid": "60ad17288b79a7d99fc42601" },
+    "name": "Kitchen",
+    "homeId": "L002",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "18", "unit": "C" },
+        "id": "T09"
+      },
+      {
+        "name": "light1",
+        "id": "L05",
+        "desired": { "value": "on", "unit": "boolean" }
+      },
+      {
+        "name": "Gas",
+        "desired": { "value": false, "unit": "boolean" },
+        "id": "G01"
+      }
+    ],
+    "type": "kitcken",
+    "powerUsage": { "unit": "KwH", "value": 0.8 }
+  },
+  {
+    "_id": { "$oid": "60ad177b8b79a7d99fc42602" },
+    "name": "Dinner room",
+    "homeId": "L002",
+    "devices": [
+      {
+        "name": "temperature",
+        "desired": { "value": "21", "unit": "C" },
+        "id": "T01"
+      },
+      {
+        "name": "light1",
+        "id": "L07",
+        "desired": { "value": "on", "unit": "boolean" }
+      }
+    ],
+    "type": "room",
+    "powerUsage": { "unit": "KwH", "value": 0.5 }
+  }
+]

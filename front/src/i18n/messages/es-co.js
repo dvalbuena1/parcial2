@@ -14,5 +14,10 @@ export default {
       "Tu tienes {money, plural, =0 { nada} one {# un millón} other {# millones}}",
     myRooms: "Mis habitaciones",
     stats: "Estadísticas",
+    idTable: "ID",
+    deviceTable: "Dispositivo",
+    valueTable: "Valor",
+    titleChart: "Consumo de energía (kwH) - Hoy",
+    loading: "Cargando...",
   },
 };

@@ -3,8 +3,12 @@ const [getRoomsByHome] = require("./room");
 const COLLECTION_NAME = "homes";
 
 async function getHomes() {
-  const homes = await db().collection(COLLECTION_NAME).find({}).toArray();
-  return homes;
+  try {
+    const homes = await db().collection(COLLECTION_NAME).find({}).toArray();
+    return homes;
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 async function getHomeById(id) {
